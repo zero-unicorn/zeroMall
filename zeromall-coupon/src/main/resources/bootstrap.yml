@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: zeromall-coupon
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: 9bfd40f2-3c8c-498b-bb15-18160fe9a926
+        group: dev
+        ext-config:
+          - data-id: datasource.yaml
+            group: ${spring.cloud.nacos.config.group}
+            refresh: true
+          - data-id: common.yaml
+            group: ${spring.cloud.nacos.config.group}
+            refresh: true

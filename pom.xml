@@ -20,6 +20,9 @@
         <module>zeromall-order</module>
         <module>zeromall-product</module>
         <module>zeromall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>zeromall-common</module>
     </modules>
 
 </project>
